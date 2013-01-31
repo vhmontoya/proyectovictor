@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.ventasonline.controlador;
 
 import edu.ventasonline.dao.Cliente_dao;
@@ -15,10 +12,6 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 
-/**
- *
- * @author INNOVASOFTWARE
- */
 @ManagedBean(name="administra_cliente")
 public class ClienteC {
     @ManagedProperty(value="#request_cliente")

@@ -1,17 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.ventasonline.dao;
 
 import edu.ventasonline.comun.DaoAbstract;
 import edu.ventasonline.modelo.Cliente;
 import java.util.List;
 
-/**
- *
- * @author INNOVASOFTWARE
- */
 public class Cliente_dao extends DaoAbstract<Cliente> {
     
       public Cliente_dao(Cliente cliente) {

@@ -1,17 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.ventasonline.dao;
 
 import edu.ventasonline.comun.DaoAbstract;
 import edu.ventasonline.modelo.Factura;
 import java.util.List;
 
-/**
- *
- * @author INNOVASOFTWARE
- */
 public class Factura_dao extends DaoAbstract<Factura> {
     public Factura_dao(Factura factura)
     {

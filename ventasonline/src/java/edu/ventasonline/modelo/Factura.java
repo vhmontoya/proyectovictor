@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.ventasonline.modelo;
 
 import java.io.Serializable;
@@ -9,11 +6,6 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.*;
 
-
-/**
- *
- * @author INNOVASOFTWARE
- */
 @Entity
 public class Factura implements Serializable{
 

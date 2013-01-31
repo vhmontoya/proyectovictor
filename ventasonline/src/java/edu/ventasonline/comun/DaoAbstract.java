@@ -1,17 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package edu.ventasonline.comun;
 
 import java.util.List;
 import javax.persistence.EntityManager;
 
-/**
- *
- * @author Toshiba
- */
 public abstract  class DaoAbstract <T>{
 T instancia;
 EntityManager entityManager;
